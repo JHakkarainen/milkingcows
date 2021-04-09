@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: aqua;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: initial;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+svg {
+  align-self: flex-start;
+  flex: content;
+  height: calc(95%);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+table {
+  margin-top: 5vh;
+  margin-left: 5vw;
+  width: 500px;
+  border-collapse: collapse;
+}
+
+th {
+  border: black;
+  border-radius: 2px;
+  border-style: solid;
+}
+
+td {
+  border:steelblue;
+  border-radius: 1px;
+  border-style: solid;
+}
+
+#modal {
+  z-index: 100;
+  width: 500px;
+  height: 500px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
